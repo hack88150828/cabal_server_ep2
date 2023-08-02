@@ -6,7 +6,7 @@ Install [Docker](https://www.docker.com/get-started)
 
 ### Environment
 
-Copy .env.example to .env and configurate .env
+Cp .env.example .env and configurate .env
 
 ```
 DB_PASSWORD=StronG_db_passw0rd // Use a strong password for mssql with special symbols, numbers, and uppercase symbols
