@@ -16,6 +16,7 @@ RUN rpm -Uvh unixODBC-kde-2.2.11-1.RHEL4.1.i386.rpm
 RUN rpm -Uvh freetds-unixodbc-0.64RC3-1.i386.rpm
 
 RUN rpm -i -vv --noscripts cabal-chnserverCB-1.0-2.rpm
+RUN tar -xvf Item.scp.tar.gz etc/cabal/
 
 COPY files/etc /etc
 COPY files/usr /usr
